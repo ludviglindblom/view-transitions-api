@@ -39,7 +39,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
-		view-transition-name: header;
+		/* view-transition-name: header; */
 	}
 
 	.corner {
