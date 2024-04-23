@@ -17,7 +17,7 @@
 	});
 
 	onNavigate((navigation) => {
-		if (!document.startViewTransition) return;
+		if (document.startViewTransition) return;
 
 		return new Promise((resolve) => {
 			let transition = document.startViewTransition(async () => {
